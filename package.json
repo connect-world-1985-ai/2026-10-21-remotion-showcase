@@ -1,0 +1,30 @@
+{
+  "name": "2026-10-21-remotion-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion ceiling showcase: The Making of Motion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Showcase 2026-10-21-renders/remotion-showcase.mp4 --codec=h264 --crf=20 --concurrency=50% --gl=swangle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "^4.0.537",
+    "@remotion/google-fonts": "^4.0.537",
+    "@remotion/media-utils": "^4.0.537",
+    "@remotion/noise": "^4.0.537",
+    "@remotion/paths": "^4.0.537",
+    "@remotion/shapes": "^4.0.537",
+    "@remotion/three": "^4.0.537",
+    "@remotion/transitions": "^4.0.537",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.537",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2"
+  }
+}
